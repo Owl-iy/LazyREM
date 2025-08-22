@@ -13,8 +13,8 @@ import re
 import os
 import sys
 import threading
-MALWARE_BAZAAR_KEY = "bddba7e50e18b4e01a4b26d888a8b7f82b8ccbbff8a1eae0"
-headers = {'Auth-Key': 'bddba7e50e18b4e01a4b26d888a8b7f82b8ccbbff8a1eae0'}
+MALWARE_BAZAAR_KEY = "YOURKEYHERE"
+headers = {'Auth-Key': 'YOURAUTHKEY'}
 #TODO
 #  1. Windows portable executable (.EXE)
 # 2. GUI
@@ -252,3 +252,4 @@ if __name__ == '__main__':
 #             print(match)
         
 #         seconddriver.close()
+
